@@ -15,4 +15,4 @@ class Player{
         bool bet(int amount);//the player bets the amount passed, returns false if the player cannot bet the amount
         void collectWinnings(int amount);//adds winnings to the players budget
 };
-
+#endif

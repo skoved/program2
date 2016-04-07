@@ -6,7 +6,7 @@
 
 class Heap{
     private:
-        vector<int> heap;
+        std::vector<int> heap;
     public:
         Heap(std::string filename);//creates a heap by reading in players from a file
         Heap(const Heap &copy);//creates a new heap that is identical to the heap that gets passed
@@ -17,3 +17,4 @@ class Heap{
         void heapify();//formats the vector into a heap
         void siftDown(int index);//performs siftDown on the passed index
 };
+#endif
